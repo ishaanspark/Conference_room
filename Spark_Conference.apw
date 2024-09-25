@@ -109,26 +109,26 @@
        <!ELEMENT Notes (#PCDATA)>
 ]>
 
-<Workspace CurrentVersion="4.0"><Identifier>NehruPlace</Identifier>
+<Workspace CurrentVersion="4.0"><Identifier>Spark_Conference</Identifier>
 <CreateVersion>4.0</CreateVersion>
 <PJS_File></PJS_File>
 <PJS_ConvertDate></PJS_ConvertDate>
 <PJS_CreateDate></PJS_CreateDate>
 <Comments></Comments>
-<Project><Identifier>SparkTech</Identifier>
+<Project><Identifier>SetUp</Identifier>
 <Designer></Designer>
 <DealerID></DealerID>
 <SalesOrder></SalesOrder>
 <PurchaseOrder></PurchaseOrder>
 <Comments></Comments>
-<System IsActive="true" Platform="Netlinx" Transport="Serial" TransportEx="TCPIP"><Identifier>ConferenceRoom</Identifier>
+<System IsActive="true" Platform="Netlinx" Transport="Serial" TransportEx="Serial"><Identifier>Room</Identifier>
 <SysID>0</SysID>
 <TransTCPIP>0.0.0.0</TransTCPIP>
 <TransSerial>COM1,115200,8,None,1,None</TransSerial>
-<TransTCPIPEx>192.168.0.15|1319|1|NX-2200||</TransTCPIPEx>
+<TransTCPIPEx>198.18.0.1|1319|1| |dXNlcm5hbWU|cGFzc3dvcmQ</TransTCPIPEx>
 <TransSerialEx>COM1|38400|8|None|1|None||</TransSerialEx>
 <TransUSBEx>|||||</TransUSBEx>
-<TransVNMEx>10.0.0.1|1|&lt;Default&gt;</TransVNMEx>
+<TransVNMEx>192.168.90.90|1|&lt;Default&gt;</TransVNMEx>
 <VirtualNetLinxMasterFlag>false</VirtualNetLinxMasterFlag>
 <VNMSystemID>1</VNMSystemID>
 <VNMIPAddress>10.0.0.1</VNMIPAddress>
@@ -136,12 +136,8 @@
 <UserName></UserName>
 <Password></Password>
 <Comments></Comments>
-<File CompileType="Netlinx" Type="TP5"><Identifier>mt-1001</Identifier>
-<FilePathName>..\..\mt-1001.TP5</FilePathName>
-<Comments></Comments>
-</File>
-<File CompileType="Netlinx" Type="MasterSrc"><Identifier>final_program</Identifier>
-<FilePathName>final_program.axs</FilePathName>
+<File CompileType="Netlinx" Type="MasterSrc"><Identifier>Switching</Identifier>
+<FilePathName>Switching.axs</FilePathName>
 <Comments></Comments>
 </File>
 </System>
